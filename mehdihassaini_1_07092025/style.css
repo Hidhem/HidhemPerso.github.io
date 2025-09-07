@@ -7,11 +7,11 @@
 }
 body{
     margin: 30px 60px;
-    background: gray;
+    background-color: rgb(18, 37, 58);
 }
 nav{
     border-radius: 50px;
-    padding: 10px 20px;
+    padding: 10px 30px;
     background: rgb(112, 198, 255);
     display: flex;
     align-items: center;
@@ -19,6 +19,9 @@ nav{
 }
 nav img{
     width: 50px;
+}
+nav img:hover{
+    cursor: pointer;
 }
 nav ul{
     gap: 100px;
@@ -38,4 +41,23 @@ nav li:hover{
     background: white;
     padding: 10px 20px;
     border-radius: 20px;
+}
+nav div{
+    color: white;
+    padding: 10px 20px;
+}
+nav div:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    color: black;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+main{
+    margin-top: 3em;
+    width: 100%;
+    height: 45em;
+    border-radius: 50px ;
+    background: rgb(112, 198, 255);
 }
