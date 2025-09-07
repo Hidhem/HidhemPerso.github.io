@@ -7,12 +7,12 @@
 }
 body{
     margin: 30px 60px;
-    background-color: rgb(18, 37, 58);
+    background-color: #8a9c9e;
 }
 nav{
     border-radius: 50px;
     padding: 10px 30px;
-    background: rgb(112, 198, 255);
+    background: rgb(31, 31, 31);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,7 +38,7 @@ nav li:hover{
     cursor: pointer;
     transition: 0.3s;
     color: black;
-    background: white;
+    background: #8a9c9e;
     padding: 10px 20px;
     border-radius: 20px;
 }
@@ -50,14 +50,35 @@ nav div:hover{
     cursor: pointer;
     transition: 0.3s;
     color: black;
-    background: white;
+    background: #8a9c9e;
     padding: 10px 20px;
     border-radius: 20px;
 }
 main{
+    display: flex;
+    align-items: center;
     margin-top: 3em;
     width: 100%;
     height: 45em;
     border-radius: 50px ;
-    background: rgb(112, 198, 255);
+    background: rgb(31, 31, 31);
+}
+.main__container{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50px;
+    align-items: center;
+    width: calc(100% - 2%);
+    height: calc(100% - 4%);
+}
+.main__container img{
+    display: flex;
+    border-radius: 50px;
+    height: 100%;
+}
+.main__container__txt{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
 }
